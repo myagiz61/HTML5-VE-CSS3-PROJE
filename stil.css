@@ -1,0 +1,519 @@
+body{
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(234, 234, 234);
+
+}
+header{
+    position: fixed;
+    z-index: 1000;
+}
+header .navbar{
+    display: inline-block;
+    background-color: black;
+    height:65px;    
+    width: 1538px;
+
+}
+header  h2{
+   color: white;
+}
+header h2 span{
+    font-size: 18px;
+}
+header .medya{
+    float: right;
+    margin-right:50px ;
+    margin-top: -45px;
+}
+header .medya a{
+  margin-right: 17px;
+    font-size: 22px;
+    color: white;
+}
+section .home img{
+
+    width: 1250px;
+    height: 400px;
+    margin-left:140px ;
+    border-radius: 15px;
+}
+.blog{
+    background-color:white;
+    display: flex;
+    width: 1250px;
+    margin-left: 140px;
+    border-radius: 15px;
+    height: 1000px;
+}
+
+.blog .yazi img{
+  
+    margin-left: 5px;
+    width: 495px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0 0;
+}
+.blog1 .yazi img{
+  
+    margin-left: 5px;
+    width: 495px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.blog .yazi1 img{
+    width: 495px;
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0 0;
+}
+.blog1 .yazi1 img{
+    width: 495px;
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0 0;
+}
+.blog .blogs{
+width: 450px;
+box-shadow: 0 0 15px rgba(128, 128, 128, 0.121);
+}
+.blog .blogs a i{
+    color: black;
+    font-size: 19px;
+    margin: 13px;
+  
+ 
+}
+.blog .blogs a i span{
+    margin-left: 9px;
+    font-size: 14px; 
+      
+}
+.blog .blogs a {
+    border-bottom: 2px  solid rgba(128, 128, 128, 0.251);
+   padding: 14px;
+   
+}
+.blog .blogs a i{
+    margin-left: -10px;
+    width: 200px;
+}
+.blog .yazi .tyr{
+    background-color: rgb(250, 249, 249);
+    height: 500px;
+}
+.blog .yazi1 .tyr1{
+    margin-left: 6px;
+    background-color: rgb(250, 249, 249);
+    height: 500px;
+}
+.blog1{
+    position: absolute;
+    display: flex;
+    margin-top: -530px;
+    margin-left: 377px;
+    width: 950px;
+}
+.blog button{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(2, 2, 223);
+    cursor: pointer;
+    border-radius: 15px;
+    color: white;
+}
+.blog1 button{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(2, 2, 223);
+    cursor: pointer;
+    border-radius: 15px;
+    color: white;
+}
+footer{
+    margin-left: 140px;
+    width: 1250px;
+    margin-top: -15px;
+    height: 100px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+footer div p{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.blog .rsm img{
+    width: 450px;
+    height: 300px;
+} 
+.blog .rsm {
+    display: flex;
+    margin-top:30px ;
+}
+.blog .hkmzd{
+    width: 980px;
+    height: 60px;
+    border-radius: 25px;
+    background-color: black;
+} 
+.blog .hkmzd p{
+    position: absolute;
+    color: white;
+    margin-left:440px ;
+    font-size: 25px;
+    margin-top: 14px;
+}
+.blog .tntm .rsm .txt{
+    margin-left: -430px;
+    font-size: 17px;
+}
+.blog .tntm .rsm h4{
+    margin-left: -430px;
+}
+.blog .tntm .rsm .vzyn{
+    margin-left: -430px;
+    font-size: 20px;
+}
+.blog .tntm .rsm h2{
+    margin-left: -430px;
+}
+ .tntm .rsm h3{
+    margin-left: 5px;
+}
+.rfns .htr img{
+    width: 280px;
+    margin: 11px;
+    padding: 17px;
+}
+.rfns .htr{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.rfns .htr .ore{
+    margin-top: 55px;
+}
+.rfns .htr .tk{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width:280px;
+    height: 30px;
+    margin-top: 210px;
+    margin-left: 27px;
+   border: 2px solid rgb(0, 0, 0);
+}
+.rfns .htr .tk1{
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    width:280px;
+    height: 40px;
+    margin-top: 240px;
+    margin-left: 27px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.rfns .htr .tk p{
+    font-weight: bold;
+    margin-top:5px;
+    margin-left: 85px;
+}
+.rfns .htr .tk1 p{
+    font-weight: bold;
+    margin-top:10px;
+    margin-left: 50px;
+}
+.rfns .htr .tk2{
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    width:280px;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 363px;
+    margin-top: 240px;
+}
+.rfns .htr .tk3{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width:280px;
+    height: 30px;   
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 363px;
+    margin-top: 210px;
+}
+.rfns .htr .tk2 p{
+    font-weight: bold;
+    margin-top:10px;
+    margin-left: 90px;
+}
+.rfns .htr .tk3 p{
+    font-weight: bold;
+    margin-top:5px;
+    margin-left: 85px;
+}
+.rfns .htr .tk4{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width:280px;
+    margin-left: 700px;
+    margin-top: 210px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.rfns .htr .tk5{
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    width:280px;
+    height: 40px;
+    margin-top: 242px;
+    margin-left: 700px;   
+    border: 2px solid rgb(0, 0, 0);
+}
+.rfns .htr .tk4 p{
+    margin-left: 80px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.rfns .htr .tk5 p{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.rfns .htr .tk6{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width:280px;
+    height: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 502px;
+    margin-left: 28px;
+}
+.rfns .htr .tk7{
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    width:280px;
+    height: 40px;
+    margin-top: 534px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 28px;
+}
+.rfns .htr .tk6 p{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+.rfns .htr .tk7 p{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.rfns .htr .tk8{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width:280px;
+    height: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 363px;
+    margin-top: 501px;
+}
+.rfns .htr .tk9{
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    width:280px;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 363px;
+    margin-top: 533px;
+}
+.rfns .htr .tk8 p{
+    font-weight: bold;
+    margin-top: 6px;
+    margin-left: 105px;
+}
+.rfns .htr .tk9 p{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.rfns .htr .tk10{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width:280px;
+    height: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 699px;
+    margin-top: 501px;  
+}
+.rfns .htr .tk11{
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    width:280px;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 699px;
+    margin-top: 533px;
+}
+.rfns .htr .tk10 p{
+    font-weight: bold;
+    margin-top: 6px;
+    margin-left: 105px;
+}
+.rfns .htr .tk11 p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+.rfns{
+    background-color:white;
+    display: flex;
+    width: 1250px;
+    margin-left: 140px;
+    border-radius: 15px;
+    height: 1000px;
+}
+
+.rfns .blogs{
+width: 450px;
+box-shadow: 0 0 15px rgba(128, 128, 128, 0.121);
+}
+.rfns .blogs a i{
+    color: black;
+    font-size: 19px;
+    margin: 13px;
+  
+ 
+}
+.rfns .blogs a i span{
+    margin-left: 9px;
+    font-size: 14px; 
+      
+}
+.rfns .blogs a {
+    border-bottom: 2px  solid rgba(128, 128, 128, 0.251);
+   padding: 14px;
+   
+}
+.rfns .blogs a i{
+    margin-left: -10px;
+    width: 200px;
+}
+.rfns .hkmzd{
+    width: 980px;
+    height: 60px;
+    border-radius: 25px;
+    background-color: black;
+    margin-left: 25px;
+} 
+.rfns .hkmzd p{
+    position: absolute;
+    color: white;
+    margin-left:440px ;
+    font-size: 25px;
+    margin-top: 14px;
+}
+.rfns{
+    height: 700px;
+}
+.glr .imgs img{
+   
+    width: 280px;
+    margin: 15px;
+}
+.glr .imgs{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.glr .hkmzd{
+    width: 980px;
+    height: 60px;
+    border-radius: 25px;
+    background-color: black;
+    margin-left: 20px;
+} 
+.glr .hkmzd p{
+    position: absolute;
+    color: white;
+    margin-left:440px ;
+    font-size: 25px;
+    margin-top: 14px;
+}
+.glr{
+    background-color:white;
+    display: flex;
+    width: 1250px;
+    margin-left: 140px;
+    border-radius: 15px;
+    height: 1000px;
+}
+.glr .blogs{
+    width: 450px;
+    box-shadow: 0 0 15px rgba(128, 128, 128, 0.121);
+    }
+.glr .blogs a i{
+    color: black;
+    font-size: 19px;
+    margin: 13px;
+    }
+.glr .blogs a i span{   
+  margin-left: 9px;
+ font-size: 14px; 
+          
+    }
+.glr .blogs a {
+    border-bottom: 2px  solid rgba(128, 128, 128, 0.251);
+    padding: 14px;
+       
+    }
+.glr .blogs a i{
+    margin-left: -10px;
+    width: 200px;
+    }
+    .glr .imgs img:hover{
+        transform: scale(1.1);
+      transition: 0.2s ease;
+}
+.glr .hrt iframe{
+    width: 995px;
+    
+}
+.glr .hrt{
+    margin-left: 3px;
+    margin-top: 20px;
+   
+}
+.glr .nbrs form input{
+
+   margin-left: 150px;
+   margin-top: 55px;
+}
+.glr .nbrs{
+    background-color: gray;
+    height: 350px;
+    opacity: 0.9;
+    width: 400px;
+    margin-left: 250px;
+    margin-top: 25px;
+}
+.glr .nbrs form p{
+    position: absolute;
+    margin-top: 55px;
+ margin-left:78px ;
+ font-weight: bold;
+
+}
+.glr .nbrs form .tsk{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: chartreuse;
+    color: white;
+    margin-left: 140px;
+}
+.glr .nbrs form .tsk:hover{
+    background-color: red;
+}
